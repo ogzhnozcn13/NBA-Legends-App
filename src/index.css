@@ -12,5 +12,27 @@ body{
 .card-container{
     background-image: url(./assets/nba-bgpic.jpg);
     background-size: cover;
-    
+    min-width: 300px;
+}
+
+
+.player-card{
+    height: 400px;
+    box-shadow: 2px 2px 5px white;
+    max-width: 280px;
+    min-width: 230px;
+}
+
+.player-card:hover{
+    box-shadow: 6px 6px 15px white;
+}
+
+.player-card:hover .player-logo{
+    transform: scale(0.95);
+}
+
+
+.player-logo{
+    height: 350px;
+    transition: transform 0.3s;
 }

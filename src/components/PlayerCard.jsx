@@ -7,8 +7,8 @@ const PlayerCard = (player) => {
     const {name, img, statistics} = player
 
     return(
-        <Card>
-            <Card.Img variant="top" src={img} />
+        <Card className='rounded-2 m-auto player-card'role="button">
+            <Card.Img className='player-logo' variant="top" src={img} />
             <Card.Footer>
                 <Card.Title>{name}</Card.Title>
             </Card.Footer>
