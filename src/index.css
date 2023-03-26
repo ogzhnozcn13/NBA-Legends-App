@@ -1,1 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background-color: #f4b967;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card-container{
+    background-image: url(./assets/nba-bgpic.jpg);
+    background-size: cover;
+    
+}
