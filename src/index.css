@@ -10,8 +10,7 @@ body{
 }
 
 .card-container{
-    background-image: url(./assets/nba-bgpic.jpg);
-    background-size: cover;
+    background-image: linear-gradient(to right, #1d428a, #c8102e);
     min-width: 300px;
 }
 
